@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body h3 {
+  color: #fef08a;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+body h4 {
+  color: #fef08a;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem;
+}
+
+body main p {
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem;
+}
