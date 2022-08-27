@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Københavnerbilleder</title>
     <script type="module" crossorigin src="./assets/main.ae54f498.js"></script>
-    <link rel="stylesheet" href="./assets/index.f8bd84cb.css">
+    <link rel="stylesheet" href="./assets/index.7276564f.css">
   </head>
   <body class="bg-black">
     <header>
@@ -16,7 +16,7 @@
           <img class="relative" src="./assets/heropic.38223276.webp" alt="heropic" />
         </picture>
         <button
-          class="absolute top-72 right-9 z-10 cursor-pointer rounded-full bg-neutral-400 p-2 px-3 text-white hover:bg-yellow-200 hover:text-black"
+          class="absolute top-64 right-9 z-10 cursor-pointer rounded-full bg-neutral-400 p-2 px-3 text-white hover:bg-yellow-200 hover:text-black md:bottom-7 md:top-auto md:right-28 lg:right-24 lg:bottom-32 lg:text-xl"
         >
           Køb bogen her!
         </button>
@@ -26,7 +26,7 @@
             type="image/avif"
           />
           <img
-            class="absolute left-5 top-36 w-2/4 rotate-12"
+            class="absolute left-5 top-36 w-2/4 rotate-12 md:top-56 md:left-12 md:w-1/3 lg:top-64 lg:left-24 lg:w-2/6"
             src="./assets/kobenhavnerbilleder-sten-simons-png.063f6a8d.webp"
             alt="bog"
           />
@@ -35,84 +35,86 @@
     </header>
 
     <main>
-      <div class="mx-7 border-b-2 pb-7">
-        <h1 class="relative mt-28 text-2xl text-yellow-200">
+      <div
+        class="z-10 mx-7 border-b-2 pb-7 lg:absolute lg:right-28 lg:bottom-40 lg:w-96 xl:top-3/4"
+      >
+        <h1 class="relative mt-28 text-2xl text-yellow-200 md:mt-14">
           Københavnerbilleder
         </h1>
+
         <h2 class="relative mt-1 text-lg text-custom">
           - En guide til hipster foto
         </h2>
         <h3 class="relative mt-2 text-sm text-custom">Af Sten Simons</h3>
       </div>
       <div>
-        <div class="flex flex-col gap-3 p-14">
-          <div>
-            <h3>Kort om bogen</h3>
-            <p class="mt-2 text-gray-300">
-              Københavnerbilleder er de danske streetfotografers bibel: Det er
-              en fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle
-              væsentlige aspekter af streetfotografering fra grundlæggende
-              teknik til kreative eksperimenter. Alt sammen krydret med masser
-              af inspirerende fotos. God læselyst!
-            </p>
+        <div class="items-center lg:mr-14 lg:flex">
+          <div class="flex flex-col gap-3 p-14 md:flex-row md:gap-24">
+            <div class="md:w-1/2">
+              <h3>Kort om bogen</h3>
+              <p class="mt-2 text-gray-300">
+                Københavnerbilleder er de danske streetfotografers bibel: Det er
+                en fusion mellem et kunstværk og en lærebog. Bogen gennemgår
+                alle væsentlige aspekter af streetfotografering fra
+                grundlæggende teknik til kreative eksperimenter. Alt sammen
+                krydret med masser af inspirerende fotos. God læselyst!
+              </p>
+            </div>
+            <div>
+              <h3 class="mt-5 md:mt-0">Stamdata for bogen</h3>
+              <ul class="text-sm leading-8 text-gray-300">
+                <li>
+                  <span class="font-bold text-custom">Titel:</span>
+                  Københavnerbilleder - en guide til hipster foto
+                </li>
+                <li>
+                  <span class="font-bold text-custom">Forfatter:</span> Sten
+                  Simons
+                </li>
+                <li>
+                  <span class="font-bold text-custom">Antal sider:</span> 344
+                </li>
+                <li>
+                  <span class="font-bold text-custom">Forlag:</span> Mellem
+                  Linjerne
+                </li>
+                <li>
+                  <span class="font-bold text-custom">ISBN:</span>
+                  987-6-987654-32-1
+                </li>
+                <li><span class="font-bold text-custom">Pris:</span> 399.-</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h3 class="mt-5">Stamdata for bogen</h3>
-            <ul class="text-sm leading-8 text-gray-300">
-              <li>
-                <span class="font-bold text-custom">Titel:</span>
-                Københavnerbilleder - en guide til hipster foto
-              </li>
-              <li>
-                <span class="font-bold text-custom">Forfatter:</span> Sten
-                Simons
-              </li>
-              <li>
-                <span class="font-bold text-custom">Antal sider:</span> 344
-              </li>
-              <li>
-                <span class="font-bold text-custom">Forlag:</span> Mellem
-                Linjerne
-              </li>
-              <li>
-                <span class="font-bold text-custom">ISBN:</span>
-                987-6-987654-32-1
-              </li>
-              <li><span class="font-bold text-custom">Pris:</span> 399.-</li>
-            </ul>
-          </div>
-        </div>
-        <div class="flex w-fit flex-row gap-9 p-14">
-          <div>
-            <picture>
-              <source
-                srcset="./assets/kobenhavnerbilleder_oppefra-open.37fae31a.avif "
-                type="image/avif"
-              />
-              <img
-                class=""
-                src="./assets/kobenhavnerbilleder_oppefra-open.300bfd91.webp"
-                alt="bookopen"
-              />
-            </picture>
-          </div>
-          <div>
-            <picture>
-              <img
-                class=""
-                src="./assets/kobenhavnerbilleder_aaben_venstre.7c280e2b.webp"
-                alt="openlayeddown"
-              />
-            </picture>
+          <div class="flex w-fit flex-row items-center gap-9 p-14 lg:flex-col">
+            <div class="lg:h-auto lg:w-72">
+              <picture>
+                <source srcset="./assets/openbook-side.fa5d1fe9.avif " type="image/avif" />
+                <img class="" src="./assets/openbook-side.27b988b0.webp" alt="bookopen" />
+              </picture>
+            </div>
+            <div class="lg:h-auto lg:w-72">
+              <picture>
+                <source
+                  srcset="./assets/kobenhavnerbilleder-sten-simons-png.c12370ee.avif "
+                  type="image/avif"
+                />
+                <img
+                  class=""
+                  src="./assets/kobenhavnerbilleder-sten-simons-png.063f6a8d.webp"
+                  alt="openlayeddown"
+                />
+              </picture>
+            </div>
           </div>
         </div>
         <div class="bg-gray-100">
           <h3 class="mx-7 pt-9 text-lg font-semibold text-red-500">
             Anmeldelser af bogen
           </h3>
-          <div class="flex flex-wrap gap-7 p-7">
+          <div class="flex flex-wrap gap-7 p-7 md:flex-nowrap">
             <div
-              class="items-between flex-fit flex flex-col gap-3 rounded-xl border-2 p-3 hover:bg-gray-200"
+              class="items-between flex-fit flex flex-col gap-3 rounded-xl border-2 p-3 hover:bg-gray-200 md:w-1/3"
             >
               <div class="flex-fit flex">
                 <svg width="32" height="32" viewBox="0 0 24 24">
@@ -164,9 +166,9 @@
               </p>
             </div>
             <div
-              class="items-between flex-fit flex flex-col gap-3 rounded-xl border-2 p-3 hover:bg-gray-200"
+              class="items-between flex flex-col gap-3 rounded-xl border-2 p-3 hover:bg-gray-200 md:w-1/3"
             >
-              <div class="flex-fit flex">
+              <div class="flex">
                 <svg width="32" height="32" viewBox="0 0 24 24">
                   <path
                     fill="#FACC15"
@@ -214,7 +216,7 @@
               </p>
             </div>
             <div
-              class="items-between flex-fit flex flex-col gap-3 rounded-xl border-2 p-3 hover:bg-gray-200"
+              class="items-between flex-fit flex flex-col gap-3 rounded-xl border-2 p-3 hover:bg-gray-200 md:w-1/3"
             >
               <div class="flex">
                 <svg width="32" height="32" viewBox="0 0 24 24">
@@ -268,104 +270,115 @@
         </div>
         <div class="pb-7">
           <h3 class="mx-7 mt-9 text-lg">Bogens kapitler</h3>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2">Kapitel 1 - Intro til street foto</h4>
-            <p class="mx-7 text-gray-300">
-              Hvad er street foto? Det handler i bund og grund om at skyde byens
-              liv og byens geometri (urban geometry). I dette kapitel får du en
-              grundig intro til hvad street foto er og et overblik over nogen af
-              de kendte street-fotografer. Alt krydret med en masse gode
-              eksempler på street fotos.
-            </p>
-          </div>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
-              Kapitel 2 - Om at skyde street
-            </h4>
-            <p class="mx-7 text-sm text-gray-300">
-              Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud
-              på gaderne og prøve det! I dette kapitel får du en teknisk
-              indføring i hvordan du bedst skyder street. Uanset om du er
-              begynder eller professionel, er der mange gode tekniske tips og
-              tricks til street-skyderiet.
-            </p>
-          </div>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
-              Kapitel 3 - Om at finde det rette motiv
-            </h4>
-            <p class="mx-7 text-sm text-gray-300">
-              Indimellem er man heldig, andre gange kommer man hjem helt uden
-              gode motiver. Med et par tips og tricks til at finde de rette
-              motiver, stiger chancen gevaldigt for at fange de gode motiver.
-            </p>
-          </div>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
-              Kapitel 4 - Digital street foto
-            </h4>
-            <p class="mx-7 text-sm text-gray-300">
-              De fleste af os skyder oftest digitalt fordi det er billigere og
-              nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til
-              digital street foto. I dette kapitel får du en række tips og
-              tricks til digital street-foto.
-            </p>
-          </div>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
-              Kapitel 5 - Analog street foto
-            </h4>
-            <p class="mx-7 text-sm text-gray-300">
-              Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt
-              end digital. Det signalerer entusiasme. Nogle teknikker og
-              fremgangsmåder egner sig bedst til analog street foto. I dette
-              kapitel får du en række tips og tricks til analog street-foto.
-            </p>
-          </div>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
-              Kapitel 6 - Om at skyde sort/hvid
-            </h4>
-            <p class="mx-7 text-sm text-gray-300">
-              Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
-              Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad
-              adskiller sort/hvid fra farvefotografering? Her får du en række
-              tips og tricks til sort/hvid fotografering.
-            </p>
-          </div>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2">Kapitel 7 - Kreative teknikker</h4>
-            <p class="mx-7 text-sm text-gray-300">
-              Dobbelteksponeringer, ICM (intentional camera moves), smadrede
-              objektiver, gamle filmruller og alle mulige andre, spændende
-              kreative teknikker kan løfte dine fotografier fra at være kedelige
-              dokumentationer af hverdagen til at blive vilde kunststykker. Så
-              dyk ned i dette kapitel om eksperimenterende teknikker!
-            </p>
-          </div>
-          <div>
-            <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
-              Kapitel 8 - Kom helt tæt på!
-            </h4>
-            <p class="mx-7 text-sm text-gray-300">
-              Street foto handler om at fotografere livet på gaden - men tør du
-              at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så
-              godt øve dig, for det er det der vil gøre dig til en bedre
-              street-fotograf…
-            </p>
+          <div class="md:flex">
+            <div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2">
+                  Kapitel 1 - Intro til street foto
+                </h4>
+                <p class="mx-7 text-gray-300">
+                  Hvad er street foto? Det handler i bund og grund om at skyde
+                  byens liv og byens geometri (urban geometry). I dette kapitel
+                  får du en grundig intro til hvad street foto er og et overblik
+                  over nogen af de kendte street-fotografer. Alt krydret med en
+                  masse gode eksempler på street fotos.
+                </p>
+              </div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
+                  Kapitel 2 - Om at skyde street
+                </h4>
+                <p class="mx-7 text-sm text-gray-300">
+                  Vil du skyde street? Så er der ikke nogen vej udenom: Du skal
+                  ud på gaderne og prøve det! I dette kapitel får du en teknisk
+                  indføring i hvordan du bedst skyder street. Uanset om du er
+                  begynder eller professionel, er der mange gode tekniske tips
+                  og tricks til street-skyderiet.
+                </p>
+              </div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
+                  Kapitel 3 - Om at finde det rette motiv
+                </h4>
+                <p class="mx-7 text-sm text-gray-300">
+                  Indimellem er man heldig, andre gange kommer man hjem helt
+                  uden gode motiver. Med et par tips og tricks til at finde de
+                  rette motiver, stiger chancen gevaldigt for at fange de gode
+                  motiver.
+                </p>
+              </div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
+                  Kapitel 4 - Digital street foto
+                </h4>
+                <p class="mx-7 text-sm text-gray-300">
+                  De fleste af os skyder oftest digitalt fordi det er billigere
+                  og nemmere. Og nogen teknikker og fremgangsmåder egner sig kun
+                  til digital street foto. I dette kapitel får du en række tips
+                  og tricks til digital street-foto.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
+                  Kapitel 5 - Analog street foto
+                </h4>
+                <p class="mx-7 text-sm text-gray-300">
+                  Analog er sejt fordi det er mere “ægte,” dyrere og mere
+                  besværligt end digital. Det signalerer entusiasme. Nogle
+                  teknikker og fremgangsmåder egner sig bedst til analog street
+                  foto. I dette kapitel får du en række tips og tricks til
+                  analog street-foto.
+                </p>
+              </div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
+                  Kapitel 6 - Om at skyde sort/hvid
+                </h4>
+                <p class="mx-7 text-sm text-gray-300">
+                  Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
+                  Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og
+                  hvad adskiller sort/hvid fra farvefotografering? Her får du en
+                  række tips og tricks til sort/hvid fotografering.
+                </p>
+              </div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2">Kapitel 7 - Kreative teknikker</h4>
+                <p class="mx-7 text-sm text-gray-300">
+                  Dobbelteksponeringer, ICM (intentional camera moves), smadrede
+                  objektiver, gamle filmruller og alle mulige andre, spændende
+                  kreative teknikker kan løfte dine fotografier fra at være
+                  kedelige dokumentationer af hverdagen til at blive vilde
+                  kunststykker. Så dyk ned i dette kapitel om eksperimenterende
+                  teknikker!
+                </p>
+              </div>
+              <div>
+                <h4 class="mx-7 mt-9 pb-2 text-sm text-yellow-200">
+                  Kapitel 8 - Kom helt tæt på!
+                </h4>
+                <p class="mx-7 text-sm text-gray-300">
+                  Street foto handler om at fotografere livet på gaden - men tør
+                  du at gå helt tæt på fremmede mennesker og knipse løs? Du kan
+                  lige så godt øve dig, for det er det der vil gøre dig til en
+                  bedre street-fotograf…
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="border-b-2 bg-gray-100 p-7">
-          <h3 class="font-semibold text-red-500">Billeder fra bogen</h3>
-          <div class="grid grid-cols-1 gap-8">
-            <div>
-              <picture class="min-w-fit object-cover">
+          <h3 class="mb-5 font-semibold text-red-500">Billeder fra bogen</h3>
+          <div class="flex flex-wrap justify-center gap-8">
+            <div class="h-auto w-80">
+              <picture>
                 <source
                   srcset="./assets/orestad-man-and-bird.94565c3d.avif "
                   type="image/avif"
                 />
                 <img
-                  class="h-72 w-auto object-cover"
+                  class=""
                   src="./assets/orestad-man-and-bird.fb49fdfa.webp"
                   alt="forfatter"
                 />
@@ -376,56 +389,30 @@
                 sidder.
               </p>
             </div>
-            <div>
-              <picture class="min-w-fit object-cover">
+            <div class="h-auto w-80">
+              <picture>
                 <source srcset="./assets/train.288cae3e.avif " type="image/avif" />
-                <img
-                  class="h-72 w-auto object-cover"
-                  src="./assets/train.79b9a95a.webp"
-                  alt="forfatter"
-                />
+                <img src="./assets/train.79b9a95a.webp" alt="forfatter" />
               </picture>
               <p>
                 Billede fra bogen
                 <span class="italic">Københavnerbilleder</span> af metro.
               </p>
             </div>
-            <div>
+            <div class="h-auto w-80">
               <picture>
                 <source srcset="./assets/street.1acf2e1e.avif " type="image/avif" />
-                <img
-                  class="h-72 w-auto object-cover"
-                  src="./assets/street.b18f3579.webp"
-                  alt="forfatter"
-                />
+                <img src="./assets/street.b18f3579.webp" alt="forfatter" />
               </picture>
               <p>
                 Billede fra bogen
                 <span class="italic">Københavnerbilleder</span> af en gade.
               </p>
             </div>
-            <div>
-              <picture>
-                <source srcset="./assets/store.8cbea3ee.avif " type="image/avif" />
-                <img
-                  class="h-72 w-auto object-cover"
-                  src="./assets/store.6ec7b712.webp"
-                  alt="forfatter"
-                />
-              </picture>
-              <p>
-                Billede fra bogen
-                <span class="italic">Københavnerbilleder</span> af en butik.
-              </p>
-            </div>
-            <div>
+            <div class="h-auto w-80">
               <picture>
                 <source srcset="./assets/steel.5a8ee7ae.avif " type="image/avif" />
-                <img
-                  class="h-72 w-auto object-cover"
-                  src="./assets/steel.04cfeb13.webp"
-                  alt="forfatter"
-                />
+                <img src="./assets/steel.04cfeb13.webp" alt="forfatter" />
               </picture>
               <p>
                 Billede fra bogen
@@ -433,20 +420,64 @@
                 islandsbrygge.
               </p>
             </div>
+            <div class="h-auto w-80">
+              <picture>
+                <source srcset="./assets/bench.d6e107fa.avif " type="image/avif" />
+                <img src="./assets/bench.00a2db41.webp" alt="forfatter" />
+              </picture>
+              <p>
+                Billede fra bogen
+                <span class="italic">Københavnerbilleder</span> af to personer
+                på en bænk.
+              </p>
+            </div>
+            <div class="h-auto w-80">
+              <picture>
+                <source srcset="./assets/boat.981482bd.avif " type="image/avif" />
+                <img src="./assets/boat.6da63649.webp" alt="forfatter" />
+              </picture>
+              <p>
+                Billede fra bogen
+                <span class="italic">Københavnerbilleder</span> af en båd.
+              </p>
+            </div>
+            <div class="h-auto w-80">
+              <picture>
+                <source srcset="./assets/buildings.cfa6e0cc.avif " type="image/avif" />
+                <img src="./assets/buildings.83ea784b.webp" alt="forfatter" />
+              </picture>
+              <p>
+                Billede fra bogen
+                <span class="italic">Københavnerbilleder</span> af bygninger.
+              </p>
+            </div>
+            <div class="h-auto w-80">
+              <picture>
+                <source srcset="./assets/trees.fdf3653e.avif " type="image/avif" />
+                <img src="./assets/trees.f2eb7ef7.webp" alt="forfatter" />
+              </picture>
+              <p>
+                Billede fra bogen
+                <span class="italic">Københavnerbilleder</span> af træer.
+              </p>
+            </div>
           </div>
         </div>
         <div class="bg-gray-100 p-7">
           <h3 class="pb-5 text-lg font-semibold text-red-500">Forfatteren</h3>
-          <div class="flex w-fit flex-col gap-6">
-            <picture class="flex justify-center">
+          <div class="flex w-fit flex-col gap-6 md:flex-row md:gap-14">
+            <picture class="flex justify-center md:w-2/4 lg:w-1/4">
               <source srcset="./assets/sten_simons.1d2873cb.avif " type="image/avif" />
               <img
-                class="h-auto w-1/2 object-cover"
+                class="h-auto w-1/2 object-cover md:w-auto"
                 src="./assets/sten_simons.8933aef7.webp"
                 alt="forfatter"
               />
             </picture>
-            <div>
+            <div class="self-center md:w-2/3">
+              <h4 class="pb-4 text-base font-semibold text-red-500">
+                Kort om forfatteren bag Københavnerbilleder
+              </h4>
               <p>
                 Sten Simons har en lang foto-karriere bag sig. Det hele startede
                 i 00’erne, da han gik rundt i Pisserenden for at fotografere
@@ -474,9 +505,9 @@
         </div>
       </div>
     </main>
-    <footer class="text-gray-200">
+    <footer class="flex justify-around p-5 text-gray-200">
       <p>lavet af Mathilde via Tailwind</p>
-      <p>Kea Project</p>
+      <p>&copy; Kea Project 2022</p>
     </footer>
 
     
